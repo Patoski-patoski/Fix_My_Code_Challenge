@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module """
+"""Module documentation"""
 
 
 class Square():
@@ -9,7 +9,8 @@ class Square():
     height = 0
     
     def __init__(self, width=0, height=0):
-        """Initialize"""
+        """Initialize instances
+        """
         self.width = width
         self.height = height
 
