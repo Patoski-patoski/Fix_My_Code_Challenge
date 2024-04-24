@@ -4,6 +4,9 @@
 
 class Square():
     """ A square class to get the area and perimeter"""
+
+    width = 0
+    height = 0
     
     def __init__(self, width=0, height=0):
         """Initialize"""
@@ -20,10 +23,10 @@ class Square():
 
     def __str__(self):
         """String representation of the square"""
-        return "Square: {} x {}".format(self.width, self.height)
+        return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
     s = Square(width=5, height=9)
     print(s)
-    print("Area:", s.area_of_my_square())
-    print("Perimeter:", s.perimeter_of_my_square())
+    print(s.area_of_my_square())
+    print(s.perimeter_of_my_square())
