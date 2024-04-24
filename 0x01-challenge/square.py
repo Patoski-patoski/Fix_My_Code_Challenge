@@ -5,7 +5,7 @@
 class Square():
     """ A square class to get the area and perimeter"""
     
-    def __sinit__(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         """Initialize"""
         self.width = width
         self.height = height
