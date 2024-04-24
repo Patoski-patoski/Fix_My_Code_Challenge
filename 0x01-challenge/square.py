@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """Module """
 
+
 class Square():
+    """ A square class to get the area and perimeter"""
     
-    def __init__(self, width=0, height=0):
+    def __sinit__(self, width=0, height=0):
         """Initialize"""
         self.width = width
         self.height = height
@@ -12,7 +14,7 @@ class Square():
         """Calculate the area of the square"""
         return self.width * self.height
 
-    def permeter_of_my_square(self):
+    def perimeter_of_my_square(self):
         """Calculate the perimeter of the square"""
         return (self.width * 2) + (self.height * 2)
 
