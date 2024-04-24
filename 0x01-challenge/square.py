@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+"""Module """
 
 class Square():
     
     def __init__(self, width=0, height=0):
+        """Initialize"""
         self.width = width
         self.height = height
 
